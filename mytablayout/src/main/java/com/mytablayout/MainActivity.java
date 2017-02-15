@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mFragment.add(new Fragment2());
         mFragment.add(new Fragment3());
         mVp.setAdapter(new MyPagerAdapter(getSupportFragmentManager(),mFragment));
-
+        mTbl.setupWithViewPager(mVp);
 
 
 

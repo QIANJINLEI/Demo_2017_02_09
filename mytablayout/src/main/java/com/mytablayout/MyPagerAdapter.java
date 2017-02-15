@@ -36,4 +36,19 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
         }
         return 0;
     }
+    private String tabTitles[] = new String[]{"TAB1", "TAB2", "TAB3"};
+    @Override
+    public CharSequence getPageTitle(int position) {
+        // 返回纯文字
+
+        return tabTitles[position];
+
+        // 返回ICON和文字
+     /*   Drawable image = context.getResources().getDrawable(imageResId[position]);
+        image.setBounds(0, 0, image.getIntrinsicWidth() * 2, image.getIntrinsicHeight() * 2);
+        SpannableString sb = new SpannableString(tabTitles[position]);
+        ImageSpan imageSpan = new ImageSpan(image, ImageSpan.ALIGN_BOTTOM);
+        sb.setSpan(imageSpan, 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        return sb;*/
+    }
 }
