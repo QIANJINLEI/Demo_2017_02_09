@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Okhttp</string>
+    <string name="app_add">添加</string>
+    <string name="app_del">删除</string>
+    <string name="app_ins">插入</string>
+    <string name="app_cha">改变</string>
+
+
 </resources>

@@ -15,6 +15,10 @@ import java.util.ArrayList;
  * Created by wb-qjl256634 on 2017/2/13.
  */
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+    public void setList(ArrayList<String> list) {
+        this.list = list;
+    }
+
     private ArrayList<String> list = null;
     private OnClickListener onClickListener=null;
 
@@ -34,7 +38,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         ImageView mIma = (ImageView) holder.itemView.findViewById(R.id.recyclerview_item_imageview);
         TextView mIv = (TextView) holder.itemView.findViewById(R.id.recyclerview_item_text);
-        mIv.setText("这是第" + position + "条数据！");
+        mIv.setText("这是第" + position + "条数据！"+list.get(position));
         Glide.with(holder.context).load(list.get(position)).into(mIma);
         mIv.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,4 +79,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public interface OnClickListener{
         void onItemClick(View view,int postion);
     }
+
+
+
+
 }

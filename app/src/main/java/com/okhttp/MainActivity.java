@@ -2,31 +2,48 @@ package com.okhttp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.GridLayoutManager;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ArrayList<String> list;
-    private RecyclerView mRlv;
+    private MyRecyclerView mRlv;
     private MyAdapter adapter;
+    private int i ;
+    private GridLayoutManager layouts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mRlv = (RecyclerView) findViewById(R.id.rlv);
-        RecyclerView.LayoutManager layouts =new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
+        findViewById(R.id.cha).setOnClickListener(this);
+        findViewById(R.id.add).setOnClickListener(this);
+        findViewById(R.id.ins).setOnClickListener(this);
+        findViewById(R.id.del).setOnClickListener(this);
+        ListView listView = new ListView(this);
+        listView.addHeaderView(new View(this));
+        mRlv = (MyRecyclerView) findViewById(R.id.rlv);
+        layouts = new GridLayoutManager(this,4,GridLayoutManager.VERTICAL,false);
         mRlv.setLayoutManager(layouts);
         list = new ArrayList<>();
-        for (int i=0;i<100;i++){
+        for (int i = 0; i <100; i++){
             list.add(i,"http://b.hiphotos.baidu.com/image/pic/item/0823dd54564e925838c205c89982d158ccbf4e26.jpg");
         }
         adapter = new MyAdapter(list);
+
+        TextView view = new TextView(this);
+        view.setText("addHeaderView");
+        view.setTextSize(21);
+        view.setGravity(Gravity.CENTER);
+        mRlv.addHeaderView(view);
+        mRlv.addFootView(view);
         mRlv.setAdapter(adapter);
         adapter.setOnonItemClick(new MyAdapter.OnClickListener() {
             @Override
@@ -34,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("qwe",postion+"");
             }
         });
+        i = 0;
       /*  mRlv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -92,5 +110,36 @@ public class MainActivity extends AppCompatActivity {
         });*/
 
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.add:
+                list.add(0,"新数据"+ ++i);
+                adapter.setList(list);
+                adapter.notifyItemInserted(0);
+                layouts.scrollToPosition(0);
+                //添加
+                break;
+            case R.id.del:
+                list.remove(0);
+                adapter.setList(list);
+                adapter.notifyItemRemoved(0);
+                layouts.scrollToPosition(0);
+                //删除
+                break;
+            case R.id.ins:
+                //插入
+                break;
+            case R.id.cha:
+                //跟新
+                list.set(0,"跟新新数据"+ ++i);
+                adapter.setList(list);
+                adapter.notifyItemChanged(0);
+                layouts.scrollToPosition(0);
+
+                break;
+        }
     }
 }
