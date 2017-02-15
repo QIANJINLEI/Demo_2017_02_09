@@ -3,48 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_3b2ea17d9378ee91b0d62a9ed1157e01caeb83b5.jar" />
+        sha1="3d0b1a8c6b10888880a02fe384d8251dc23a948f">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\instant-run-bootstrap_9ed40c9cc557f811c6d71b11591b2e8ced5a243c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_6b760f8bf2900ed76366106c5e610554801bcdaf.jar" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_cb9ae1682d467fa187c4837b65e4eb502cbbabbb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\alibabauth_core-1.1.4.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="377e320a66002c98933d59e0908a478f59ee73f9">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\alibabauth_core-1.1.4_2714ed9603d83c11e683509a8576d5b103fb98af.jar" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_a7897f7ce34ff3294f141928b723d7d290ca4f60.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\alibc_applink-2.0.0.9.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4c11cffbca92b7d35905677ddbd3d13440648a71">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\alibc_applink-2.0.0.9_1ba65b955972afed5347d20a6915c7007f3b5cfe.jar" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_be60742f46c03bdc1b15dd4c1b222d6c21f6aea6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_2b0b4ba8252b6908a8686dfbd97141efd3ae323d.jar" />
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_5d871ac9f10c7cfd5b6368423e321baee0c1e1ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_59659638a238a90ceebe9060cd1b92c9ef656ce7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.1_84e80a4f779b95ce1d9a371215db95ae3503b23d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,223 +71,115 @@
         optimize="true"
         revision="25.0.2"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_a0cdeac1bd521ca3c5036a1d8263fd162885d3be.jar" />
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_a0cdeac1bd521ca3c5036a1d8263fd162885d3be.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_c5540cbaea928a3b106f37643e505e1a26055a58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\utdid4all-1.1.5.3_proguard.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="989c3bb13060da1e3154bfe00236f76453a2725f">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\utdid4all-1.1.5.3_proguard_532770f16996f8667334608ee51d8e26d1fbcc35.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_16beccdcd5b6061ff67ea761889c6b7e750816c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\alipaySingle-20160825.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="54d2df3b366123f2920605d6906a959619ac4dd8">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\alipaySingle-20160825_9dec09b38848909b74d5f12fd33733f1c59f6fbb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="670aee32d573a7ba40392c8cbf6f29cd21e5f105">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e50a045e45ff977c5d16adc7028e21041252a1cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_074997feac35fb8a5b2eeaa976ad63918867a1a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_749737485936c99a6fe2780e2c88e8e10962adf5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_55407de321516b79cb9e649575c02038e4ee1cb1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\alibabauth_ext-1.1.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02fce998d34a1ca3b979dc6b42d902e3b3f35643">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\alibabauth_ext-1.1.4_f964eac217c1deebfdb79ac3ebacc93833348650.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\wb-qjl256634\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_6935f4af65cc20043445c1e336f290f3113cadde.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_0958d11632d86beaf256142c295e39ec97bcd3ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_2d70dc88931e6960f61ce6ce6691aa73a0bcfa6c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\alibabauth_accountlink-1.1.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa4b8cab7c8dad87e52d4a5d520aa5d1ca6333f0">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\alibabauth_accountlink-1.1.4_2f409bff0988c3a74073717277251bb42043ff05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_be53ad5cdaa2fe5eb1033532202f7132ba90825d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_9c4e8d21f10a2882f76cced44080749dbf62fdca.jar" />
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.1_20f67841ca3952bff73b27994d80472bc03e43e3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3cfcf3d5bf380f855fdbbb047fb5e79224130555.jar" />
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_9b3b4db2eb5a91060e8db023cd81e76f7ae72c8c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_d2745852fac622219ef72694a34ace5dc1c1345b.jar" />
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_25bda905ea2f7f4d5bffb1603c52f7a00840a2c0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\wb-qjl256634\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\okio-1.11.0_abb11b8bea35748fb4232517aabfea729732352a.jar" />
+        sha1="2ee05fc123f7555442fd6107b4c2997254a2fcea">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\instant-run_4ab04f4df607fc1179cadbd4b816bb94e3438e79.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7de078852dad961e5ac91bc422f2dd9329b7dded">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\instant-run_3a073f48d605f5db1333df870f98f80f9835e40a.jar" />
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_d04f1d63afc137eecca3a13c67d4c5e655a75fe7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\wb-qjl256634\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\glide-3.7.0_ba588e5a16f7f0e6dea64b41c34d9484e22672f9.jar" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_19f1818bb468e85f695c5a8300421ed0f77609df.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\fastjson-1.2.9.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3a6e5f623dccd587c3d3cffd4fde80261f326715">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\fastjson-1.2.9_6200b02f309b135869aca2628d6ebf153b1fd932.jar" />
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_22ab9da8fe2c00e3be81a774a794f9ba5aad042a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_5a90145c850b73ca265ea0af7e3264809d647a7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.1_bf131a3c3e75f2810261bef8a63b2b7f8dcaeda9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_f5c23aa70e5556ce2bff7d263aa046c7dece8397.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3a69fea74b4f4442e232ea4a48cf8a83570287ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Demo_2017_02_09\mytablayout\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_49c85e319fc2f7014c00c4ff12886c00cc19e66e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\mtopsdk_allinone_open-1.2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6572b3342d7412f86a41193a8570dab8bc096b7b">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\mtopsdk_allinone_open-1.2.2.4_2dca15cb7810eaf97f0bd263d698dcc206cee8fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Demo_2017_02_09\app\libs\app-monitor-sdk-2.5.1.3_for_bc_proguard.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8a852ea5d5257dc7f72f1e4e031531543f15ac26">
-        <dex dex="D:\Demo_2017_02_09\app\build\intermediates\pre-dexed\debug\app-monitor-sdk-2.5.1.3_for_bc_proguard_6d1da7fe54f0f7e149973151aa4179dd0ef6475f.jar" />
+        <dex dex="D:\Demo_2017_02_09\mytablayout\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_23a0be3e1f0c85fecc6b047c94f33f8746b008ad.jar" />
     </item>
 
 </items>
